@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
     {
         if (gameState == GAME)
         {
-            if (level.transform.childCount == 0) //bad
+            if (level.transform.childCount == 0) //bd
             {
                 gameState = INIT;
                 level = null;
